@@ -466,6 +466,7 @@ a:hover .cart, a:hover .wishlist {
 }
 .contact-frm #message {
 	border-radius: 0px;
+	resize: none;
 }
 
 .contact-frm input, #message {

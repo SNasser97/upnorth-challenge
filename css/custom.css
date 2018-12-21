@@ -444,13 +444,36 @@ a:hover .cart, a:hover .wishlist {
 .card-text {
 	color:#ccc;
 }
-
-.btn-submit:hover {
+#btn-submit{
+	border-radius: 25px;
+}
+#btn-submit:hover {
 	border-color: #1f1f1f;
 	color:#1f1f1f;
 }
 
+
+.contact-frm {
+	border:1px solid #EFEFEF;
+	padding: 25px;
+	box-shadow: 0px 2px 1px #EAEAEA;
+
+}
 .contact-frm label, input, textarea {
 	color:#1f1f1f;
 	font-family: Roboto, sans-serif;
+
+}
+.contact-frm #message {
+	border-radius: 0px;
+}
+
+.contact-frm input, #message {
+	border-radius: 0px;
+	border: 1px solid #F2F2F2;
+	box-shadow: 0px 1px 1px #F3F3F3;
+}
+
+.contact-frm input:placeholder {
+	font-size:small;
 }

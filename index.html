@@ -216,19 +216,19 @@
             <form class='contact-frm'>
                <div class="form-group">
                   <label for="name">Your fullname</label>
-                  <input type="text" class="form-control" id="name" aria-describedby="entername" placeholder="Enter your full name">
+                  <input type="text" class="form-control" id="name" aria-describedby="entername" placeholder="Enter your full name" required>
                </div>
                <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                </div>
                <div class="form-group">
                   <label for="message">Enter your message</label>
-                  <textarea id='message' class="form-control" placeholder="Enter message" rows="5" cols="50"></textarea>
+                  <textarea id='message' class="form-control" placeholder="Enter message" rows="5" cols="50" required></textarea>
                   <small id="emailHelp" class="form-text text-muted">We try to respond to as many emails as soon as possible. If it's urgent you can call our customer service team at <a class='frm-contact' href='tel:0800 786 61297'>0800 786 61297</a></small>
                </div>
-               <input type="submit" class="btn btn-full btn-submit"></button>
+               <input type="submit" id='btn-submit' class="btn btn-full btn-submit"></button>
             </form>
          </div>
       </section>
